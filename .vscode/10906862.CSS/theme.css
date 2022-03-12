@@ -1,0 +1,58 @@
+body {
+    background-color: lightcyan;
+}
+
+h2 {
+    text-align: center;
+    font-size: 6ch;
+    text-decoration: wavy;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+h3 {
+    text-align: center;
+    text-decoration: wavy;
+    font-style: oblique;
+}
+
+h4 {
+    text-align: left;
+    color: blueviolet;
+    text-overflow: ellipsis;
+}
+
+p {
+    text-align: left;
+    color: black;
+}
+
+#para1 {
+    text-align: center;
+    font-style: italic;
+    color: orange;
+}
+
+#para2 {
+    text-align: initial;
+    font-style: normal;
+    font-variant: small-caps;
+    color: brown;
+}
+
+#para3 {
+    text-align: center;
+    font-style: normal;
+    color: purple;
+}
+
+#para4 {
+    text-align: unset;
+    font-style: oblique;
+    color: hotpink;
+}
+
+td {
+    text-align: center;
+    color: rgb(165, 100, 21);
+}

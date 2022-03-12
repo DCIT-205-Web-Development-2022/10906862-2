@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visitor's Details</title>
+</head>
+
+<link rel="stylesheet" href="theme.css">
+
+<body>
+    <h3>Visitor's Details</h3>
+    <fieldset>
+        <legend>Please provide your details:</legend>
+
+        <p>Hello, thank you for visiting my webpage. I would like to know more about you. Kindly fill the form below.</p>
+
+        <form>
+            <label for="visitorName">Name:</label>
+            <input type="text" id=visitorName name="visitorName">
+            <label for="visitorAge">Age:</label>
+            <input type="text" id=visitorAge name="visitorNum">
+            <label for="visitorNum">Telephone Number:</label>
+            <input type="text" id=visitorNum name=visitorNum><br><br>
+
+            <p>
+                <b>Gender:</b>
+                <fieldset>
+                    <legend>Specify</legend>
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="Other">
+                    <label for="other">Other</label><br>
+                    <label for="visitorGender">If other please specify:</label>
+                    <input type="text" id=visitorGender name="visitorGender">
+                </fieldset>
+
+                <br><br>
+            </p>
+
+            <label for="visitorID">Mode of Identification:</label>
+            <select id=visitorID name="visitorID">
+            <option value="blank">        </option>
+            <option value="National ID">National ID</option>
+            <option value="Student ID">Student ID</option>
+            <option value="NHIS">NHIS</option>
+            <option value="Driver's license">Driver's license</option>
+            <option value="Voter's ID">Voter's ID</option>
+        </select>
+
+
+            <label for="IDnumber">ID Number:</label>
+            <input type="text" id=IDnumber name="IDnumber"><br><br>
+
+            <p>Please leave any complaints or suggestions in the area below;</p>
+            <textarea name="Suggestions and Complaints" rows="15" cols="30"></textarea>
+
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+    </fieldset>
+
+    <style>
+        body {
+            background: rgb(15, 163, 163)
+        }
+        
+        fieldset {
+            border-width: thick;
+            border-style: groove;
+            border-color: rgb(54, 148, 59);
+            text-align: center;
+        }
+        
+        h3 {
+            text-align: center;
+            font-size: 10mm;
+            font-style: bold;
+            font-weight: bold;
+            color: orange;
+            text-shadow: 3px 3px 5px yellowgreen;
+        }
+    </style>
+
+    <br>
+    </form>
+
+    <h4>Navigation</h4>
+    <p>Click <a href="Web1.html">here</a> to know more about me.</p>
+    <p>Click <a href="Web2.html">here</a> to find out more about my educational background.</p>
+
+
+
+</html>
